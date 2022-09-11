@@ -5,56 +5,7 @@
     <projectFile profileName="RazorPagesUI">RazorPagesUI/RazorPagesUI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcd88114-512d-4a57-9d34-f8a13f14dd48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RazorPagesUI.Library/Api/ApiHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RazorPagesUI.Library/Api/IApiHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RazorPagesUI.Library/Models/ILoggedInUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RazorPagesUI.Library/Models/LoggedInUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RazorPagesUI/Models/UserModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/css/signin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/Pages/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/Pages/Error.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/Pages/Error.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/Pages/Error.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/Pages/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/Pages/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/Pages/Index.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/Pages/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/Pages/Privacy.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/Pages/Privacy.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/Pages/Privacy.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/Pages/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/Pages/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/Pages/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/Pages/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/Pages/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/Pages/_ViewStart.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/RazorPagesUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/RazorPagesUI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealTimeChat.RazorPages.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RealTimeChat.RazorPages.sln" afterDir="false" />
-    </list>
+    <list default="true" id="dcd88114-512d-4a57-9d34-f8a13f14dd48" name="Changes" comment="Pages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +24,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ca860fea1234fdab4474cfa1911d325a886a3e2e7692197955e531a9eb8e081/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e329bd4f14a42c5f6951d92d29ba7796e511d77e6a35ab20a5a38f50ba6fd74/HttpResponseMessage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RazorPagesUI/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/CSharp/RealTimeChat/RazorPages/RealTimeChat.RazorPages/RazorPagesUI/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -138,7 +90,30 @@
       <workItem from="1662744305272" duration="1396000" />
       <workItem from="1662745963880" duration="1209000" />
       <workItem from="1662750388364" duration="4791000" />
+      <workItem from="1662918000977" duration="401000" />
     </task>
+    <task id="LOCAL-00001" summary="Created prototype LogIn Page and communication with API.">
+      <created>1662918302130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662918302130</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created prototype LogIn Page and communication with API.">
+      <created>1662918343582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662918343582</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Pages">
+      <created>1662918393508</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662918393508</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +134,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Created prototype LogIn Page and communication with API." />
+    <MESSAGE value="Pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
