@@ -5,17 +5,21 @@ using RazorPagesUI.Models;
 
 namespace RazorPagesUI.Pages
 {
-    public class LoginModel : PageModel
+    public class SignInModel : PageModel
     {
         private IApiHelper _apiHelper;
 
-        public LoginModel(IApiHelper apiHelper)
+        public SignInModel(IApiHelper apiHelper)
         {
             _apiHelper = apiHelper;
         }
 
         [BindProperty]
         public UserModel User { get; set; }
+        
+        public void OnGet()
+        {
+        }
 
         public async Task<IActionResult> OnPost()
         {
@@ -26,18 +30,16 @@ namespace RazorPagesUI.Pages
 
             try
             {
-                var result = await _apiHelper.Authenticate(User.UserName, User.Password);
+                var result = await _apiHelper.Register(User.UserName, User.Password,
+                    User.ConfirmPassword, User.Email);
             }
             catch (Exception ex)
             {
                 var errorMessage = ex.Message;
             }
-
-            return RedirectToPage("/");
-        }
-
-        public void OnGet()
-        {
+            
+            
+            return RedirectToPage("/Login");
         }
     }
 }

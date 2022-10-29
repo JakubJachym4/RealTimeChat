@@ -1,5 +1,6 @@
 ﻿using System.Net.Http.Headers;
 using System.Net.Http.Json;
+using System.Text;
 using Newtonsoft.Json;
 using RazorPagesUI.Library.Models;
 
@@ -16,7 +17,7 @@ public class ApiHelper : IApiHelper
         _loggedInUser = loggedInUser;
     }
 
-    private void InitialazeClient()
+    private async Task InitialazeClient()
     {
         string apiUri = "https://localhost:7234/";
 
@@ -24,26 +25,54 @@ public class ApiHelper : IApiHelper
         apiClient.BaseAddress = new Uri(apiUri);
         apiClient.DefaultRequestHeaders.Accept.Clear();
         apiClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+       
     }
 
-    public async Task<LoggedInUser> Authenticate(string username, string password, string confirmPassword, string email)
+    public async Task<LoggedInUser> Register(string username, string password, string confirmPassword, string email)
     {
 
-        var content = new Dictionary<string, string>()
+        var data = new Dictionary<string, string>()
+         {
+             { "userName", username },
+             { "password", password },
+             { "confirmPassword", confirmPassword },
+             { "email", email }
+         };
+
+        // var data = new FormUrlEncodedContent(content);
+
+        var json = JsonConvert.SerializeObject(data);
+        var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+        using (var response = await apiClient.PostAsync("api/Account/Register", content))
         {
-            { "userName", username },
-            { "password", password },
-            { "confirmPassword", confirmPassword },
-            { "email", email }
+
+            if (response.IsSuccessStatusCode)
+            {
+                var result = await response.Content.ReadAsAsync<LoggedInUser>();
+                return result;
+            }
+            else
+            {
+                throw new Exception(response.ReasonPhrase);
+            }
+        }
+    }
+
+    public async Task<LoggedInUser> Authenticate(string username, string password)
+    {
+        var data = new Dictionary<string, string>()
+        {
+            {"userName", username},
+            {"password", password}
         };
-        
-        var data = new FormUrlEncodedContent(content);
 
+        var json = JsonConvert.SerializeObject(data);
+        var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-        using (var response = await apiClient.PostAsync("api/Account/Login", data))
+        using (var response = await apiClient.PostAsync("api/Account/Login", content))
         {
-            var cos = await response.Content.ReadAsStringAsync();
-            
+
             if (response.IsSuccessStatusCode)
             {
                 var result = await response.Content.ReadAsAsync<LoggedInUser>();

@@ -5,7 +5,10 @@
     <projectFile profileName="RazorPagesUI">RazorPagesUI/RazorPagesUI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcd88114-512d-4a57-9d34-f8a13f14dd48" name="Changes" comment="Pages" />
+    <list default="true" id="dcd88114-512d-4a57-9d34-f8a13f14dd48" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RealTimeChat.RazorPages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RealTimeChat.RazorPages/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RazorPagesUI.Library/Api/ApiHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RazorPagesUI.Library/Api/ApiHelper.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +93,7 @@
       <workItem from="1662744305272" duration="1396000" />
       <workItem from="1662745963880" duration="1209000" />
       <workItem from="1662750388364" duration="4791000" />
-      <workItem from="1662918000977" duration="401000" />
+      <workItem from="1662918000977" duration="3307000" />
     </task>
     <task id="LOCAL-00001" summary="Created prototype LogIn Page and communication with API.">
       <created>1662918302130</created>
@@ -126,7 +129,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="refactor" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -143,16 +158,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/RazorPagesUI.Library/Api/ApiHelper.cs</url>
-          <line>42</line>
-          <properties documentPath="E:\CSharp\RealTimeChat\RazorPages\RealTimeChat.RazorPages\RazorPagesUI.Library\Api\ApiHelper.cs" initialLine="42" containingFunctionPresentation="method 'Authenticate'">
+          <line>44</line>
+          <properties documentPath="E:\CSharp\RealTimeChat\RazorPages\RealTimeChat.RazorPages\RazorPagesUI.Library\Api\ApiHelper.cs" initialLine="44" containingFunctionPresentation="method 'Authenticate'">
             <startOffsets>
-              <option value="1213" />
+              <option value="1298" />
             </startOffsets>
             <endOffsets>
-              <option value="1288" />
+              <option value="1299" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesUI", "RazorPagesUI\RazorPagesUI.csproj", "{6C37F7EC-E0F8-4C12-826B-F77D376480B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesUI", "RazorPagesUI\RazorPagesUI.csproj", "{6C37F7EC-E0F8-4C12-826B-F77D376480B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesUI.Library", "RazorPagesUI.Library\RazorPagesUI.Library.csproj", "{DF34408A-5874-4A45-A4AD-1BBD63DB4F2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesUI.Library", "RazorPagesUI.Library\RazorPagesUI.Library.csproj", "{DF34408A-5874-4A45-A4AD-1BBD63DB4F2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

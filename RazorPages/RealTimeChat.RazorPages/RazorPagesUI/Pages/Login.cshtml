@@ -1,39 +1,21 @@
-@page
+﻿@page
 @model RazorPagesUI.Pages.LoginModel
-
 @{
     ViewData["Title"] = "Login";
 }
-<link href="css/signin.css" rel="stylesheet"/>
+<link rel="stylesheet" href="css/site.css" />
+<link rel="stylesheet" href="css/login.css">
 
-<div class="container-sm   main-container">
-    <form method="post" class="form form-container">
-        <h1 >Login</h1>
-        <div class="form-signin form-floating">
-            <input type="text" asp-for="User.UserName" placeholder="Username" />
-            <span asp-validation-for="User.UserName" class="text-danger"></span>
+<section class="login"> 
+    <form method="post" class="container">
+        <h1>Log In!</h1>  
+        <input type="text" class="form-input" id="userName" asp-for="User.UserName">
+        <input type="text" class="form-input" id="password" asp-for="User.Password">
+        <button type="submit" class="login-btn">LogIn</button>
+        <div class="signin-redirect">
+            <p>Have no account?</p>
+            <button>Sign In</button>
         </div>
-        <div class="form-signin form-floating ">
-            <input type="text" asp-for="User.Email" placeholder="Email"/>
-            <span asp-validation-for="User.Email" class="text-danger"></span>
-
-        </div>
-        <div class="form-signin form-floating ">
-            <input type="text" asp-for="User.Password" placeholder="Password"/>
-            <span asp-validation-for="User.Password" class="text-danger"></span>
-        </div>
-        <div class="form-signin form-floating">
-            <input type="text" asp-for="User.ConfirmPassword" placeholder="Confirm Password"/>
-            <span asp-validation-for="User.ConfirmPassword" class="text-danger w-100"></span>
-        </div>
-        <button type="submit" class="">Login</button>
-
+        
     </form>
-</div>
-
-@section Scripts
-{
-    @{
-        <partial name="Shared/_ValidationScriptsPartial"/>
-    }
-}
+</section>

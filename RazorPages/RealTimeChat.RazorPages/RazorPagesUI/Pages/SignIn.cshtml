@@ -1,0 +1,31 @@
+﻿@page
+@model RazorPagesUI.Pages.SignInModel
+@{
+    ViewData["Title"] = "Sign In";
+}
+<link href="css/signin.css" rel="stylesheet" />
+
+<div class="container-sm   main-container">
+    <form method="post" class="form form-container">
+        <h1>Sign In</h1>
+        <div class="form-signin form-floating">
+            <input type="text" asp-for="User.UserName" placeholder="Username" />
+            <span asp-validation-for="User.UserName" class="text-danger"></span>
+        </div>
+        <div class="form-signin form-floating ">
+            <input type="text" asp-for="User.Email" placeholder="Email" />
+            <span asp-validation-for="User.Email" class="text-danger"></span>
+
+        </div>
+        <div class="form-signin form-floating ">
+            <input type="text" asp-for="User.Password" placeholder="Password" />
+            <span asp-validation-for="User.Password" class="text-danger"></span>
+        </div>
+        <div class="form-signin form-floating">
+            <input type="text" asp-for="User.ConfirmPassword" placeholder="Confirm Password" />
+            <span asp-validation-for="User.ConfirmPassword" class="text-danger w-100"></span>
+        </div>
+        <button type="submit" class="">Login</button>
+
+    </form>
+</div>
